@@ -17,4 +17,4 @@ suma=(numero*(numero+1))/2;
 printf ("La suma de los primeros %d numeros es: %d\n",numero,suma);
 }
 return 0;
-}
+}   
