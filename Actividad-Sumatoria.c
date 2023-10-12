@@ -11,5 +11,10 @@ while (numero<=0)
     scanf ("%d",&numero);
 }
 }
+else
+{
+suma=(numero*(numero+1))/2;
+printf ("La suma de los primeros %d numeros es: %d\n",numero,suma);
+}
 return 0;
 }
