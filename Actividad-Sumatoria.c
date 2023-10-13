@@ -21,7 +21,6 @@ while (menu!=2)
     }
     suma=(numero*(numero+1))/2;
     printf ("La suma de los primeros %d numeros es: %d\n",numero,suma);
-    return 0;
     break;
     case 2:
     break;
@@ -29,4 +28,5 @@ while (menu!=2)
     break;
     }
 }
+return 0;
 }   
