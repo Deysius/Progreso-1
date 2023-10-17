@@ -5,5 +5,10 @@ int numtabla5;
 printf ("Indique cuantos numeros de la tabla del 5 decia ver\n");
 scanf ("%d",&numtabla5);
 printf ("La tabla del 5 es\n");
+do
+{
+    numtabla5--;
+
+} while (numtabla5!=0);
 return 0;
 }
