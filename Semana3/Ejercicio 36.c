@@ -7,6 +7,8 @@ scanf ("%d",&numtabla5);
 printf ("La tabla del 5 es\n");
 do
 {
+    tabla5=tabla5+5;
+    printf ("%d\n",tabla5);
     numtabla5--;
 
 } while (numtabla5!=0);
