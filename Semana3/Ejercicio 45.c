@@ -8,5 +8,6 @@ for (int i=1; i<=num; i++)
 {
     fact*=i;
 }
+printf ("El numero factorial de %d es %d \n",num,fact);
 return 0;
 }
