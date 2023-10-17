@@ -27,6 +27,13 @@ if (digitosnum1>digitosnum2)
 if (digitosnum2>digitosnum1)
 {
     printf ("El numero %d tiene mas digitos que %d\n",num2,num1);
+
 }
+if (digitosnum2==digitosnum1)
+{
+    printf ("El numero %d tiene la misma cantidad de  digitos que %d\n",num1,num2);
+
+}
+
 return 0;
 }
